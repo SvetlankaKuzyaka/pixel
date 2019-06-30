@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e312a;
+  color: #fff; }
+
+a {
+  text-decoration: none;
+  color: #151a11; }
+
+button {
+  outline: none;
+  border: none;
+  font: inherit; }
+
+button:hover {
+  cursor: pointer; }
+
+.header, .footer {
+  height: 20px;
+  background: #93a086;
+  color: #151a11;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header .header__logo, .footer .header__logo {
+    color: #ff7b00;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-shadow: #2e312a 1px 1px 0, #2e312a -1px -1px 0, #2e312a -1px 1px 0, #2e312a 1px -1px 0; }
+  .header .header__links, .footer .header__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header .header__links .header__links__create, .footer .header__links .header__links__create {
+      margin-right: 5px;
+      padding: 5px;
+      background-color: #ff9c3e;
+      border-radius: 5%;
+      color: #151a11; }
+    .header .header__links .header__links__authentication-in, .footer .header__links .header__links__authentication-in {
+      padding: 5px;
+      background-color: #ff9c3e;
+      border-radius: 5%;
+      color: #151a11; }
+
+.header__links__user-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header__links__user-information .header__links__authentication-out {
+    padding: 5px;
+    background-color: #ff9c3e;
+    border-radius: 5%;
+    color: #151a11;
+    margin: 0 5px; }
+  .header__links__user-information .header__name {
+    margin: 0 5px; }
+
+.app-about {
+  font-size: 1.4rem;
+  font-weight: bold; }
+  .app-about .app-about__image {
+    width: 800px;
+    margin: 20px auto; }
+  .app-about .app-about__image img {
+    width: 100%; }
+  .app-about .app-about__definition {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .app-about .app-about__definition section {
+      width: 450px;
+      height: 600px;
+      text-align: center; }
+      .app-about .app-about__definition section h3 {
+        font-size: 2.5rem;
+        color: #ff7b00;
+        -webkit-text-decoration: underline white;
+                text-decoration: underline white; }
+  .app-about .definition-container {
+    width: 300px;
+    height: 300px; }
+
+.footer {
+  height: 50px; }
+  .footer a {
+    color: #864101;
+    font-size: 2.0rem; }
+
+.invisible {
+  visibility: hidden; }
+
+/*# sourceMappingURL=landing.bundle.css.map*/

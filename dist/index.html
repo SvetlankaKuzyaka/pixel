@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id"
+    content="809720823782-nf8kjqdd7602h77bq85rm0jgrji9510c.apps.googleusercontent.com">
+  <title>Piskel Clone</title>
+  <link rel="icon" href="piskel.png.ico">
+  <script src="./p5/p5.min.js" type="text/javascript"></script>
+  <script src="./p5/addons/p5.dom.min.js" type="text/javascript"></script>
+  <script src="./p5/addons/p5.sound.min.js" type="text/javascript"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+<link href="landing.bundle.css" rel="stylesheet"></head>
+
+<body>
+  <header class="header">
+    <span class="header__logo">PISKEL</span>
+    <div class="header__links">
+      <a href="app.html" class="header__links__create" target="_blank">Create Sprite</a>
+      <button class="header__links__authentication-in">Sign in</button>
+    </div>
+    <div class="header__links__user-information invisible">
+      <button class="header__links__authentication-out">Sign out</button>
+      <span class="header__name"></span>
+      <img src="" class="header__photo" width="20px" height="20px" />
+    </div>
+  </header>
+  <main class="app-about">
+    <div class="app-about__image">
+      <img src="./assets/image.png" />
+    </div>
+    <div class="app-about__definition">
+      <section>
+        <h3>Draw</h3>
+        <p>Feel yourself a painter with Piskel.<br>Choose colors, tools and try to experiment</p>
+      </section>
+      <section>
+        <h3>Animate</h3>
+        <p>You can make your picture to animate.<br>Do it with frames - it will be funny</p>
+      </section>
+      <section>
+        <h3>Export</h3>
+        <p>Finally, you can save your animation for future inheritors - maybe later it will be cost 1000000$</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-author">
+      <a rel="author" href="https://www.linkedin.com/in/svetlana-kuznetsova-815099122/" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
+      <span>Designed by Svetlana K.</span>
+    </div>
+    <div class="footer-app">
+      <a href="https://github.com/SvetlankaKuzyaka" target="_blank"><i class="fab fa-github-square"></i></a>
+      <span>Contribute to the development on Github</span>
+    </div>
+  </footer>
+
+  <script>
+    let imageGIF1;
+    let imageGIF2;
+    let imageGIF3;
+    function setup() {
+      imageGIF1 = createImg('./assets/gif1.gif');
+      imageGIF2 = createImg('./assets/gif2.gif');
+      imageGIF3 = createImg('./assets/gif3.gif');
+      imageGIF1.position(370, 670);
+      imageGIF2.position(820, 670);
+      imageGIF3.position(1280, 670);
+    }
+    function draw() { }
+  </script>
+
+<script type="text/javascript" src="landing.bundle.js"></script></body>
+
+</html>

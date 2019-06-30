@@ -1,4 +1,4 @@
-# SvetlankaKuzyaka-2019Q1
+﻿# SvetlankaKuzyaka-2019Q1
 
 | **Data start** | **Data end** | **Duration** | **Done** |
 |-----------|-------------|-------------|-------------|
@@ -16,5 +16,5 @@
 | 28.06 | 28.06 | 4h | work with p5.js library to play animation on the landing page & with GIPHY API to upload gif to website (failed: I can upload the gif with using the URL, but can’t upload files) |
 | 28.06 | 28.06 | 1h | add the definition of work process for a week to readme.md |
 | 28.06 | 29.06 | 12h | add the ability to choose the size of canvas, make frames to be draggable, implement the lighten, darken & paint the same color tools |
-| 29.06 | 30.06 | 14h | finish with landing page with playing gifs & Google authentication (based on GAPI), add the ability to export files to .apng, add shortcuts, install jest & write a few simple test, also fix some bugs & finish the worklog |
+| 29.06 | 30.06 | 14h | finish with landing page with playing gifs & Google authentication (based on GAPI), add the ability to export files to .apng, add shortcuts, install jest & write a few simple test, also fix some bugs & finish the worklog, add project on gh-pages |
 
